@@ -1,0 +1,46 @@
+.app-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #98af98;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #48982a;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    color: #5c6065;
+    font-weight: bold;
+  }
+  .count-display {
+    font-size: 1.5rem;
+    color: #235da4;
+    font-weight: bolder;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    transform: scale(1.2);
+  }
+  
+  button:active {
+    background-color: #1e7e34;
+    transform: scale(1);
+  }
+  
