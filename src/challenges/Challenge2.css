@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+    background-color: rgb(169, 173, 172);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    outline-width: 4px;
+    outline-color: black;
+    box-shadow:inset 0px 0px 17px rgba(10, 10, 37, 1);
+}
+h1{
+    font-size: 2rem;
+    color:rgb(41, 49, 38);
+    margin-top: 50px;
+}
+p{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+span{
+    color: blue;
+}
+button{
+    color: aquamarine;
+    background-color: rgb(53, 73, 91);
+    margin: 10px;
+    font-size: 1.2rem;
+    padding: 10px  20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Challenge1.css'; 
 
-const App = () => {
+const Challenge1 = () => {
   const [count, setCount] = useState(0);
 
   const increase = () => {
@@ -34,4 +34,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Challenge1;
