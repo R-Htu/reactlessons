@@ -3,6 +3,7 @@
     font-family: 'Arial', sans-serif;
     background-color: #98af98;
     padding: 20px;
+    border-radius: 10px;
   }
   
   h1 {
@@ -21,9 +22,9 @@
     font-weight: bolder;
   }
   
-  button {
-    background-color: #28a745;
-    color: white;
+  .button-container button {
+    color: aquamarine;
+    background-color: rgb(53, 73, 91);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -34,12 +35,12 @@
     transition: background-color 0.3s ease, transform 0.2s;
   }
   
-  button:hover {
+  .button-container button:hover {
     background-color: #218838;
     transform: scale(1.2);
   }
   
-  button:active {
+  .button-container button:active {
     background-color: #1e7e34;
     transform: scale(1);
   }

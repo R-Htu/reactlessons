@@ -7,8 +7,10 @@ body{
     padding: 20px;
     background-color: rgb(169, 173, 172);
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
     text-align: center;
     outline-width: 4px;
     outline-color: black;
@@ -18,6 +20,9 @@ h1{
     font-size: 2rem;
     color:rgb(41, 49, 38);
     margin-top: 50px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
 }
 p{
     color: gray;
@@ -25,14 +30,39 @@ p{
     font-weight: bolder;
 }
 span{
-    color: blue;
+    color:aquamarine;
 }
 button{
     color: aquamarine;
     background-color: rgb(53, 73, 91);
     margin: 10px;
     font-size: 1.2rem;
+    font-weight: 900;
     padding: 10px  20px;
     border-radius: 5px;
     margin-top: 20px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: inset 5px 5px 20px rgba(34, 123, 67, 0.5);
+    box-shadow:4px 4px 20px rgba(34, 23, 78, 0.5) ;
+}
+button:hover{
+    background-color: rgb(73, 99, 72);
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2) ;
+}
+button:active {
+    background-color: #387d3b;
+    transform: translateY(2px);
+    box-shadow: 0 2px 6px rgba(233, 0, 233, 0.5);
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
