@@ -1,0 +1,14 @@
+.challenge5-container {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+input{
+    padding:14px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(209, 210, 223);
+    border-radius: 8px;
+}

@@ -40,8 +40,5 @@ yarn.lock
 # Coverage directory (if using test coverage tools)
 coverage/
 
-# Next.js (if using Next.js, for example)
-.next/
-
 # Others (potentially unused in your project)
 *.tgz
